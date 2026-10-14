@@ -85,7 +85,7 @@ MindQuiz/
 
 ## 🌐 Live Demo
 
-Try MindQuiz online: [Live Demo](YOUR_VERCEL_URL)
+Try MindQuiz online: [Live Demo](https://mindquiz-one.vercel.app)
 
 ## Author
 
