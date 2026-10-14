@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "question": "Which statement best describes when an object is actually created using the new keyword in Java?",
+      "options": [
+        "When the class is loaded by the JVM", 
+        "When the new expression executes at runtime", 
+        "When a reference variable is declared", 
+        "When the compiler creates the bytecode"
+      ],
+      "correctOption": 1,
+      "points": 2
+    },
+    {
+      "question": "Which statement correctly describes autoboxing in Java?",
+      "options": [
+        "A wrapper is converted into a primitive", 
+        "A primitive is converted into a String", 
+        "A primitive is automatically wrapped into its corresponding object", 
+        "A primitive must always be explicitly cast to a wrapper type"
+      ],
+      "correctOption": 2,
+      "points": 2
+    },
+    {
+      "question": "Which statement correctly describes a static initialization block in Java?",
+      "options": [
+        "It runs every time an object is created", 
+        "It runs whenever a static method is called", 
+        "It runs during class initialization", 
+        "It runs after the main method has completed its execution"
+      ],
+      "correctOption": 2,
+      "points": 2
+    },
+    {
+      "question": "What is the main effect of declaring an instance variable as transient during Java serialization?",
+      "options": [
+        "Its value is not included in the serialized data",
+        "Its value becomes constant",
+        "The variable cannot be accessed after serialization",
+        "The variable is automatically restored with its original value"
+      ],
+      "correctOption": 0,
+      "points": 2
+    },
+    {
+      "question": "Which package is automatically available in every Java source file without an explicit import?",
+      "options": ["java.util", "java.io", "java.net", "java.lang"],
+      "correctOption": 3,
+      "points": 2
+    },
+    {
+      "question": "Which keyword is specifically used when a variable should not be assigned another value after initialization?",
+      "options": ["static", "constant", "final", "const"],
+      "correctOption": 2,
+      "points": 3
+    },
+    {
+      "question": "Which statement about two-dimensional array declarations in Java is correct?",
+      "options": [
+        "Only int[][] arr is valid",
+        "Both int[][] arr and int arr[][] are valid",
+        "Dimensions must always be given during declaration",
+        "A two-dimensional array cannot be declared without initial values"
+      ],
+      "correctOption": 1,
+      "points": 3
+    },
+    {
+      "question": "When a floating-point value is converted to an integer type in Java, what happens to its fractional part?",
+      "options": [
+        "It is rounded to the nearest integer", 
+        "It is stored separately for later use", 
+        "It is discarded during the conversion", 
+        "It is converted into a smaller fractional value"
+      ],
+      "correctOption": 2,
+      "points": 3
+    },
+    {
+      "question": "Which statement is not generally considered a feature of the Java programming language?",
+      "options": [
+        "Object-oriented programming",
+        "Automatic memory management",
+        "Platform-independent bytecode execution",
+        "Direct memory-address manipulation using pointer arithmetic"
+      ],
+      "correctOption": 3,
+      "points": 3
+    },
+    {
+      "question": "Which statement correctly describes enum constants in Java?",
+      "options": [
+        "They are implicitly public static final",
+        "They must be declared as public static final manually",
+        "They are private constants unless explicitly made public",
+        "They behave only like ordinary variables inside the enum"
+      ],
+      "correctOption": 0,
+      "points": 3
+    },
+    {
+      "question": "class P1 {\n  public static void main(String[] args) {\n    System.out.println(\"a\\u0022.length() + \\u0022b\".length());\n  }\n}",
+      "options": ["14", "26", "2", "Compilation error because of \\u0022 is not valid"],
+      "correctOption": 2,
+      "points": 5
+    },
+    {
+      "question": "enum Main {\n  ; private Main() {}\n}",
+      "options": [
+        "Compilation error because ; appears before the constructor", 
+        "Compilation error because the constructor of an enum cannot be declared private", 
+        "The code compiles successfully and defines an enum with no constants", 
+        "It compiles only if at least one enum constant is declared before the constructor"
+      ],
+      "correctOption": 2,
+      "points": 5
+    },
+    {
+      "question": "class abc {\n  public static void main(String args[]) {\n    if (args.length > 0)\n      System.out.println(args.length);\n  }\n}",
+      "options": [
+        "The program prints 0 when no command-line arguments are provided",
+        "The program compiles successfully but produces no output when run without arguments",
+        "Compilation fails because args.length cannot be accessed inside a static method",
+        "The program throws an exception when args contains no elements"
+      ],
+      "correctOption": 1,
+      "points": 5
+    },
+    {
+      "question": "class P1 {\n  public static void main(String[] args) {\n    final String pig = \"length : 10\";\n    final String dog = \"length : \" + pig.length();\n    System.out.println(\"Animal are equal : \" + pig == dog);\n  }\n}",
+      "options": [
+        "Animal are equal : true",
+        "true",
+        "false",
+        "Animal are equal : false"
+      ],
+      "correctOption": 2,
+      "points": 5
+    },
+    {
+      "question": "class P1 {\n  private static Object X;\n  public static void main(String[] args) {\n    System.out.println((\"::\" + X).length());\n  }\n}",
+      "options": ["2", "4", "6", "8"],
+      "correctOption": 2,
+      "points": 5
+    }
+  ]
+}
